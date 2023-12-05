@@ -18,6 +18,7 @@ from pelatihan import views
 from django.urls import path, include
 
 urlpatterns = [
-    path('/init', views.init)
+    path('/init', views.init),
+    path('/get_all_pelatihan', views.get_all_pelatihan),
 ]
 

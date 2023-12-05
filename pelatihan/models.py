@@ -69,7 +69,7 @@ class Pelatihan(models.Model) :
     jenis_pelatihan = models.ForeignKey(Jenis_pelatihan, on_delete=models.CASCADE)
     keterangan = models.CharField(max_length = 221) 
     lokasi = models.CharField(max_length=221)
-    tanggal_mulai = models.DateTimeField()
+    tanggal_mulai = models.DateField()
     tanggal_selesai = models.DateField()  
     
     class Meta : 
